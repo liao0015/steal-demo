@@ -1,0 +1,31 @@
+{
+  "name": "steal-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "steal": {
+    "babelOptions": {
+      "plugins": [
+        ["transform-react-jsx", {"pragma": "h"}]
+      ]
+    },
+    "plugins": [
+      "steal-css"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "preact": "^8.2.5",
+    "steal": "^1.5.13"
+  },
+  "devDependencies": {
+    "qunitjs": "^2.4.0",
+    "steal-css": "^1.3.1"
+  }
+}
